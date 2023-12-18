@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: signal-noise
+Version: 0.0.1
+Summary: It is a Python library for the calculation signal-noise metric in data. 
+Home-page: https://github.com/89605502155/signal_noise
+Author: Andrey Ferubko
+Author-email: ferubko1999@yandex.ru
+License: GNU General Public License v3.0
+Download-URL: https://github.com/89605502155/signal_noise/archive/main.zip
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# signal_noise
+It is a library with methods which can measurement signal/noise. 
+
+![PyPI](https://img.shields.io/pypi/v/signal_noise?color=orange) ![Python 3.9, 3.10, 3.11](https://img.shields.io/pypi/pyversions/signal_noise?color=blueviolet) ![GitHub Pull Requests](https://img.shields.io/github/issues-pr/89605502155/signal_noise?color=blueviolet) ![License](https://img.shields.io/pypi/l/signal_noise?color=blueviolet) ![Forks](https://img.shields.io/github/forks/89605502155/signal_noise?style=social)
+
+**signal_noise** - this module is a Python library for the calculation signal-noise metric in data.
+
+## Installation
+
+Install the current version with [PyPI](https://pypi.org/project/):
+
+```bash
+pip install signal_noise
+```
+
+Or from Github:
+```bash
+pip install https://github.com/89605502155/signal_noise/main.zip
+```
+
+
