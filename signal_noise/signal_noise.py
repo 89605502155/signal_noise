@@ -1,7 +1,7 @@
 import numpy as np
 
 class signal_noise:
-    def __init__(self,derivative_rang:[int]=[2],norm_func:[str]=['evklid']):
+    def __init__(self,derivative_rang:list[int]=[2],norm_func:list[str]=['evklid']):
         """
         derivative_rang - you can give n from 1 to infinity
         norm_func - you can use evklid norm, manhattan norm, chebyshev norm
