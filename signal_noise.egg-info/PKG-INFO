@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: signal-noise
-Version: 0.0.2
+Version: 0.0.3
 Summary: It is a Python library for the calculation signal-noise metric in data. 
 Home-page: https://github.com/89605502155/signal_noise
 Author: Andrey Ferubko

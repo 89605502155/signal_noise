@@ -29,20 +29,20 @@ class signal_noise:
         values = [[] for i in range(len(self.norm_func))]
         dictionary = dict(zip(self.norm_func, values))
         for i in self.derivative_rang:
-            derivative=self.derivative_n_rang(signal.copy(),x,i)
+            derivative=self.derivative_n_rang(signal,x,i)
             for j in self.norm_func:
                 match j:
                     case 'evklid': 
-                        norm_signal=self.evklid(signal.copy())
-                        norm_deriv=self.evklid(derivative.copy())
+                        norm_signal=self.evklid(signal)
+                        norm_deriv=self.evklid(derivative)
                         dictionary['evklid'].append(norm_signal/norm_deriv)
                     case 'manhattan': 
-                        norm_signal=self.manhattan(signal.copy())
-                        norm_deriv=self.manhattan(derivative.copy())
+                        norm_signal=self.manhattan(signal)
+                        norm_deriv=self.manhattan(derivative)
                         dictionary['manhattan'].append(norm_signal/norm_deriv)
                     case 'chebyshev': 
-                        norm_signal=self.chebyshev(signal.copy())
-                        norm_deriv=self.chebyshev(derivative.copy())
+                        norm_signal=self.chebyshev(signal)
+                        norm_deriv=self.chebyshev(derivative)
                         dictionary['chebyshev'].append(norm_signal/norm_deriv)
         return dictionary
     
